@@ -1,4 +1,4 @@
-/*Creado por: Darthye USado Por AsmodeosWOW*/
+/*Creado por: Darthye Actualizado por AsmodeosNetwork*/
 
 #include "ScriptPCH.h"
 
