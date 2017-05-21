@@ -86,13 +86,13 @@ LogsDir = "logs"
 #                                                                 section my.ini)
 #                     ".;/path/to/unix_socket;username;ascent;database" - (use Unix sockets on
 #                                                                           Unix/Linux)
-#        Default:     "127.0.0.1;3306;root;ascent;auth"       - (LoginDatabaseInfo)
-#                     "127.0.0.1;3306;root;ascent;world"      - (WorldDatabaseInfo)
-#                     "127.0.0.1;3306;root;ascent;characters" - (CharacterDatabaseInfo)
+#        Default:     "127.0.0.1;3306;asmodeos;asmodeos;logon"       - (LoginDatabaseInfo)
+#                     "127.0.0.1;3306;asmodeos;asmodeos;world"      - (WorldDatabaseInfo)
+#                     "127.0.0.1;3306;asmodeos;asmodeos;characters" - (CharacterDatabaseInfo)
 
-LoginDatabaseInfo     = "127.0.0.1;3306;root;ascent;auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;root;ascent;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;root;ascent;characters"
+LoginDatabaseInfo     = "127.0.0.1;3306;Asmodeos;asmodeos;logon"
+WorldDatabaseInfo     = "127.0.0.1;3306;asmodeos;asmodeos;world"
+CharacterDatabaseInfo = "127.0.0.1;3306;asmodeos;asmodeos;characters"
 
 #
 #    LoginDatabase.WorkerThreads
@@ -1057,7 +1057,7 @@ BeepAtStart = 1
 #        Example:     "Welcome to John\'s Server@This server runs on Trinity Core."
 #        Default:     "Welcome to a Trinity Core server."
 
-Motd = "This Is WoWSource V9"
+Motd = "Welcome to AsmodeosCORE 4.3.4 Server"
 
 #
 #    Server.LoginInfo
