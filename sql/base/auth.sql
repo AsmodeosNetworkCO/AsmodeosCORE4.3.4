@@ -384,7 +384,7 @@ CREATE TABLE `realmlist` (
 
 /*Data for the table `realmlist` */
 
-insert  into `realmlist`(`id`,`name`,`address`,`localAddress`,`localSubnetMask`,`port`,`icon`,`flag`,`timezone`,`allowedSecurityLevel`,`population`,`gamebuild`) values (1,'WowSource','127.0.0.1','127.0.0.1','255.255.255.0',8085,0,0,1,0,0,15595);
+insert  into `realmlist`(`id`,`name`,`address`,`localAddress`,`localSubnetMask`,`port`,`icon`,`flag`,`timezone`,`allowedSecurityLevel`,`population`,`gamebuild`) values (1,'AsmodeosCORE Cata','127.0.0.1','127.0.0.1','255.255.255.0',8085,0,0,1,0,0,15595);
 
 /*Table structure for table `uptime` */
 
@@ -395,7 +395,7 @@ CREATE TABLE `uptime` (
   `starttime` int(10) unsigned NOT NULL DEFAULT '0',
   `uptime` int(10) unsigned NOT NULL DEFAULT '0',
   `maxplayers` smallint(5) unsigned NOT NULL DEFAULT '0',
-  `revision` varchar(255) NOT NULL DEFAULT 'Trinitycore',
+  `revision` varchar(255) NOT NULL DEFAULT 'AsmodeosCORE',
   PRIMARY KEY (`realmid`,`starttime`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Uptime system';
 
